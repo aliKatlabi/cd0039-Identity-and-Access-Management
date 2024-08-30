@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { DrinksService, Drink } from '../../services/drinks.service';
 import { ModalController } from '@ionic/angular';
 import { DrinkFormComponent } from './drink-form/drink-form.component';
-import { AuthService } from 'src/app/services/auth.service';
+import { AuthService } from '../../services/auth.service';
 
 @Component({
   selector: 'app-drink-menu',
